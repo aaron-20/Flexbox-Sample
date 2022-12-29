@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1c2833;
+    padding: 10px 0;
+    border-bottom: 5px solid #f1c40f;
+}
+
+.header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+div.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+
+    margin: 20px auto;
+}
+
+div.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#hello {
+    background-color: #1c2833;
+}
+
+.red {
+    background-color: red;
+}
